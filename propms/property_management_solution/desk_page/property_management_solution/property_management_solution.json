@@ -1,0 +1,44 @@
+{
+ "cards": [
+  {
+   "hidden": 0,
+   "label": "Property Documents",
+   "links": "[\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Property\",\n\t\t\"description\":\"Property that needs to be managed.\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Lease\",\n\t\t\"description\":\"Lease pertaining to the properties.\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Key Set Detail\",\n\t\t\"description\": \"Key Set Detail\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Daily Checklist\",\n\t\t\"description\": \"Daily Checklist\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Exit\",\n\t\t\"description\": \"Exit\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Meter Reading\",\n\t\t\"description\": \"Meter Reading\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Outsourcing Attendance\",\n\t\t\"description\": \"Outsourcing Attendance\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Insurance\",\n\t\t\"description\": \"Insurance\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Security Attendance\",\n\t\t\"description\": \"Security Attendance\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Withholding Tax Summary\",\n\t\t\"description\": \"Withholding Tax Summary\"\n\t}\n]"
+  },
+  {
+   "hidden": 0,
+   "label": "Property Masters",
+   "links": "[\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Unit Type\",\n\t\t\"label\": \"Unit Type\",\n\t\t\"description\":\"Unit Type definition.\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Property\",\n\t\t\"description\": \"Property database.\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Checklist Checkup Area\",\n\t\t\"icon\": \"fa fa-sitemap\",\n\t\t\"label\": \"Checklist Checkup Area\",\n\t\t\"description\": \"Areas for Checklist Checkup.\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Guard Shift\",\n\t\t\"label\": \"Guard Shift\",\n\t\t\"description\": \"Shif for security guards.\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Key Set\",\n\t\t\"icon\": \"fa fa-sitemap\",\n\t\t\"label\": \"Key Set\",\n\t\t\"description\": \"Key sets in custody.\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Outsourcing Category\",\n\t\t\"label\": \"Outsourcing Category\",\n\t\t\"description\": \"Outsourcing Category definition.\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Property Amenity\",\n\t\t\"label\": \"Property Amenity\",\n\t\t\"description\": \"Property Amenity definition.\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Security Deposit Details\",\n\t\t\"label\": \"Security Deposit Details\",\n\t\t\"description\":\"Security Deposit Details definition.\"\n\t},\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Meter\",\n\t\t\"label\": \"Meter database\",\n\t\t\"description\": \"Register all meters here.\"\n\t}\n]"
+  },
+  {
+   "hidden": 0,
+   "label": "Property Settings",
+   "links": "[\n\t{\n\t\t\"type\": \"doctype\",\n\t\t\"name\": \"Property Management Settings\",\n\t\t\"label\": \"Property Management Settings\",\n\t\t\"description\":\"Property Management Settings\"\n\t}\n]"
+  },
+  {
+   "hidden": 0,
+   "label": "Property Analytics",
+   "links": "[\n\t{\n\t\t\"type\": \"report\",\n\t\t\"name\": \"Outsourcing Attendance\",\n\t\t\"is_query_report\": 1,\n\t\t\"doctype\": \"Outsourcing Attendance\"\n\t},\n\t{\n\t\t\"type\": \"report\",\n\t\t\"name\": \"Security Attendance Report\",\n\t\t\"is_query_report\": 1,\n\t\t\"doctype\": \"Security Attendance\"\n\t},\n\t{\n\t\t\"type\": \"report\",\n\t\t\"name\": \"Security Deposit\",\n\t\t\"is_query_report\": 1,\n\t\t\"doctype\": \"Journal Entry\"\n\t},\n\t{\n\t\t\"type\": \"report\",\n\t\t\"name\": \"Debtors Report\",\n\t\t\"is_query_report\": 1,\n\t\t\"doctype\": \"Sales Invoice\"\n\t},\n\t{\n\t\t\"type\": \"report\",\n\t\t\"name\": \"Creditors Report\",\n\t\t\"is_query_report\": 1,\n\t\t\"doctype\": \"Purchase Invoice\"\n\t},\n\t{\n\t\t\"type\": \"report\",\n\t\t\"name\": \"Lease Information\",\n\t\t\"is_query_report\": 1,\n\t\t\"doctype\": \"Lease\",\n\t\t\"label\": \"Lease Report\",\n\t\t\"description\": \"This is to show status of every lease by type of property\"\n\t},\n\t{\n\t\t\"type\": \"report\",\n\t\t\"name\": \"Property Status\",\n\t\t\"is_query_report\": 1,\n\t\t\"doctype\": \"Property\",\n\t\t\"label\": \"Property Status\",\n\t\t\"description\": \"Information about all properties in the system\"\n\t}\n]"
+  }
+ ],
+ "category": "Modules",
+ "charts": [],
+ "creation": "2020-12-03 12:43:09.841296",
+ "developer_mode_only": 0,
+ "disable_user_customization": 0,
+ "docstatus": 0,
+ "doctype": "Desk Page",
+ "extends_another_page": 0,
+ "hide_custom": 0,
+ "idx": 0,
+ "is_standard": 1,
+ "label": "Property Management Solution",
+ "modified": "2020-12-03 12:50:17.591131",
+ "modified_by": "Administrator",
+ "module": "Property Management Solution",
+ "name": "Property Management Solution",
+ "owner": "Administrator",
+ "pin_to_bottom": 0,
+ "pin_to_top": 0,
+ "shortcuts": []
+}
